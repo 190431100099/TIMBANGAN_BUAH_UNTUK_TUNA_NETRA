@@ -1,4 +1,4 @@
-🎛️ TIMBANGAN BUAH UNTUK TUNA NETRA  
+#🎛️ TIMBANGAN BUAH UNTUK TUNA NETRA  
 Klasifikasi Jenis Buah Menggunakan CNN dan Arduino Uno
 
 📝 Deskripsi Proyek  
