@@ -1,33 +1,33 @@
-🎛️ TIMBANGAN BUAH UNTUK TUNA NETRA  
-Klasifikasi Jenis Buah Menggunakan CNN dan Arduino Uno
+# 🎛️ FRUIT SCALE FOR THE VISUALLY IMPAIRED  
+Fruit Type Classification Using CNN and Arduino Uno
 
-📝 Deskripsi Proyek  
-Proyek ini bertujuan untuk membantu penyandang tuna netra dalam mengenali jenis buah berdasarkan berat dan citra visual buah menggunakan teknologi CNN (Convolutional Neural Network) yang terintegrasi dengan Arduino Uno.  
-Timbangan ini tidak hanya menampilkan berat buah, tetapi juga mampu mengidentifikasi jenis buah dan memberikan umpan balik berupa suara atau teks yang dapat diakses oleh pengguna tunanetra.
+## 📝 Project Description  
+This project aims to assist visually impaired individuals in recognizing fruit types based on weight and visual images using CNN (Convolutional Neural Network) technology integrated with an Arduino Uno.  
+This scale not only displays the fruit's weight but is also capable of identifying the fruit type and providing feedback in the form of voice or text accessible to blind users.
 
-🍎 Buah yang Digunakan  
-Model CNN dilatih menggunakan empat jenis buah sebagai data uji coba:  
-• 🥑 Alpukat  
+## 🍎 Fruits Used  
+The CNN model was trained using four types of fruits as test data:  
+• 🥑 Avocado  
 • 🌰 Durian  
-• 🍊 Jeruk  
-• 🍊 Orange (Jeruk Import)  
+• 🍊 Local Orange  
+• 🍊 Imported Orange  
 
-Setiap jenis buah difoto dalam berbagai kondisi pencahayaan dan sudut pandang, lalu dikombinasikan dengan data berat hasil pembacaan sensor load cell untuk meningkatkan akurasi klasifikasi.
+Each type of fruit was photographed under various lighting conditions and viewing angles, then combined with weight data from the load cell sensor readings to improve classification accuracy.
 
-⚙️ Teknologi yang Digunakan  
-• Arduino Uno — sebagai pengendali utama pembacaan sensor berat.  
-• Load Cell + HX711 — untuk mengukur massa buah.  
-• Python & TensorFlow/Keras — untuk melatih dan menjalankan model CNN.  
-• Serial Communication (UART) — untuk menghubungkan Arduino dengan sistem klasifikasi di komputer.  
-• Text-to-Speech (TTS) — untuk memberikan output suara kepada pengguna.  
+## ⚙️ Technology Used  
+• **Arduino Uno** — as the main controller for weight sensor readings.  
+• **Load Cell + HX711** — to measure the mass of the fruit.  
+• **Python & TensorFlow/Keras** — to train and run the CNN model.  
+• **Serial Communication (UART)** — to connect the Arduino with the classification system on the computer.  
+• **Text-to-Speech (TTS)** — to provide voice output to the user.
 
-🧠 Metode CNN  
-Model CNN memproses citra buah untuk mengekstraksi ciri visual unik seperti warna, tekstur, dan bentuk. Hasil klasifikasi digabungkan dengan data berat dari sensor untuk memberikan identifikasi buah yang lebih presisi.
+## 🧠 CNN Method  
+The CNN model processes fruit images to extract unique visual features such as color, texture, and shape. The classification results are combined with weight data from the sensor to provide more precise fruit identification.
 
-📊 Hasil dan Uji Coba  
-Uji coba dilakukan menggunakan set data empat buah di atas dengan berbagai kondisi pencahayaan. Model menunjukkan tingkat akurasi yang baik dalam mengenali jenis buah dari gambar dan berat yang diberikan.
+## 📊 Results and Testing  
+Testing was conducted using the dataset of the four fruits mentioned above under various lighting conditions. The model demonstrated a good level of accuracy in recognizing fruit types from the provided images and weights.
 
-🚀 Tujuan  
-• Membantu penyandang tuna netra dalam mengenali jenis buah secara mandiri.  
-• Menggabungkan sistem pengukuran berat dan pengenalan citra digital dalam satu alat terintegrasi.  
-• Menerapkan teknologi AI dan IoT untuk kebutuhan aksesibilitas.
+## 🚀 Objectives  
+• To assist visually impaired individuals in recognizing fruit types independently.  
+• To combine a weight measurement system and digital image recognition in one integrated tool.  
+• To apply AI and IoT technology for accessibility needs.
